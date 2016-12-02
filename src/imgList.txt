@@ -1,72 +1,82 @@
-idx/img ref
-Restaurant Name
-Dish Name
-Location
-Price
-Timings
-Seen Bit
-Store Bit
-Category
-
-
-
-1
-Zingerman's Delicatessen
-Zingerman's Reuben
-42.284687, -83.745077
-13.99
-0700, 2200
-0
-0
-sandwich, quick, takeout
-
-
-
-2
-Isalita
-Baja Fish Tacos
-42.279510, -83.744496
-12.00
-1130, 2300 
-0
-0
-mexican
-
-
-
-3
-Frita Batidos
-Chrorizo Frita
-42.280500, -83.749437
-8.00
-1100, 2399
-0
-0
-sandwich, burger
-
-
-
-4
-No Thai
-Drunken Noodles
-42.274585, -83.732943
-8.5
-1100, 2300
-0
-0
-quick, thai, takeout
-
-
-
-5
-Real Seafood Company
-Tuna Tartare
-42.278402, -83.748609
-14.95
-1130, 2300
-0
-0
-seafood
-
-
-
+[
+	{
+		"path":"/src/img/1.png",
+		"restaurant":"Zingerman's Delicatessen",
+		"dish":"Zingerman's Reuben",
+		"xcor":42.284687,
+		"ycor":-83.745077,
+		"price":13.99,
+		"timeopen":0700,
+		"timeclose":2200,
+		"seen":0,
+		"liked":0,
+		"categories":
+		[
+			"Sandwich","Quick","Takeout"
+		]
+	},
+	{
+		"path":"/src/img/2.png",
+		"restaurant":"Isalita",
+		"dish":"Baja Fish Tacos",
+		"xcor":42.279510,
+		"ycor":-83.744496,
+		"price":12.00,
+		"timeopen":1130,
+		"timeclose":2300,
+		"seen":0,
+		"liked":0,
+		"categories":
+		[
+			"Mexican","Eat In"
+		]
+	},	
+	{
+		"path":"/src/img/3.png",
+		"restaurant":"Frita Batidos",
+		"dish":"Chorizo Frita",
+		"xcor":42.280500,
+		"ycor":-83.749437,
+		"price":8.00,
+		"timeopen":1100,
+		"timeclose":0000,
+		"seen":0,
+		"liked":0,
+		"categories":
+		[
+			"Sandwich","Burger"
+		]
+	},	
+	{
+		"path":"/src/img/4.png",
+		"restaurant":"No Thai",
+		"dish":"Drunken Noodles",
+		"xcor":42.274585,
+		"ycor":-83.732943,
+		"price":8.50,
+		"timeopen":1100,
+		"timeclose":2300,
+		"seen":0,
+		"liked":0,
+		"categories":
+		[
+			"Quick","Thai","Takeout"
+		]
+	},	
+	{
+		"path":"/src/img/5.png",
+		"restaurant":"Real Seafood Company",
+		"dish":"Tuna Tartare",
+		"xcor":42.278402,
+		"ycor":-83.748609,
+		"price":14.95,
+		"timeopen":1130,
+		"timeclose":2300,
+		"seen":0,
+		"liked":0,
+		"categories":
+		[
+			"Seafood","Eat In"
+		]
+	}
+]
